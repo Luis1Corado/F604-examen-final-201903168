@@ -5,16 +5,16 @@ Carne: 201903168
 
 ## Como compilar y ejecutar 
 
-'''
     mkdir -p bin
     gcc -Wall -o bin/e1 e1.c
     ./bin/e1
-'''
 
 Para los ejerecicios 5 y 6
 
 '''
     ./bin/e5 < prueba.txt
+'''
+'''
     ./bin/e6 < largas.txt
 '''
 
