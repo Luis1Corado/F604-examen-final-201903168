@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/* Este programa copia la entrada a su salida , reemplazando las cadenas de mas de un espacio en blanco o tabulacion por una sola */
+/* Este programa copia la entrada a su salida , reemplazando las cadenas de mas de un espacio en blanco por una sola */
 
 int main(void){
 

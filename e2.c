@@ -5,7 +5,8 @@
  * print('Ingrese un nombre')
  * name = input()
  * print('Hola ', name)
- * La funcion input lee la linea completa , puede aceptar nombres con espacios
+ * La funcion input lee la linea completa , puede aceptar nombres con espacios, por eso cambie el programa 
+ * para utilizar mejor la funcion fgets de string.h , que vimos en la clase 6. 
  * */
 
 #define MAX 100
@@ -15,7 +16,7 @@ int main() {
     printf("Ingrese un nombre\n");
     /* scanf("%29s", name); scanf no imita completamente la funcionalidad de input() en python, scanf solo lee la primera palabra */   
     
-    if (fgets(name, MAX, stdin) == NULL)  /* entrada vacia o erro */
+    if (fgets(name, MAX, stdin) == NULL)  /* entrada vacia o error */
         name[0] = '\0';
 
     name[strcspn(name, "\n")] = '\0'; /* quitar el '\n' del Enter */
