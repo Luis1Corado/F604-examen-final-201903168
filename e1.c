@@ -1,9 +1,9 @@
 #include <stdio.h>
 
+/* Este programa  imita la funcionalidad de un programa en python que pida un valor entero y lo imprima */
+
 int main() {
     int val;
-
-    //tu codigo aqui....
 
     printf("Ingrese un valor entero\n");
 
@@ -12,7 +12,7 @@ int main() {
         return 1; 
     }
     
-    printf("Salida: %d", val);
+    printf("Salida: %d\n", val);
 
     return 0;
 }   
