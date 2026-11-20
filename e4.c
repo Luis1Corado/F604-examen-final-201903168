@@ -1,15 +1,14 @@
 #include <stdio.h>
 
-/* print Fahrenheit-Celsius table
-for f = 0, 20, ..., 300 */
+/* Imprime tabla de conversion de Celsius a Fahrenheit para C = 0, 10, ..., 100 */
 
 int main(void)
 {
     int lower, upper, step;
     float fahr, celsius;
-    lower = 0; /* lower limit of temperature table */
-    upper = 100; /* upper limit */
-    step = 10; /* step size */
+    lower = 0; /* Limite inferior de temperatura */
+    upper = 100; /* Limite superior */
+    step = 10; /* tamano de paso */
     celsius = lower;
 
     printf("   C      F\n");
