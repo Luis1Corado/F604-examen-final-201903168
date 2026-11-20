@@ -22,5 +22,12 @@ Los ejercicios 5 al 10 leen la entrada estandar:
 | Ejercicio | Archivo | Estado | Notas |
 |---|---|---|---|   
 |1 | e1.c | completo|...| 
-
-
+|2 | e2.c | completo|...|
+|3 | e3.c | completo|...|
+|4 | e4.c | completo|...|
+|5 | e5.c | completo|El limite de longitud de linea es 1000 caracteres|
+|6 | e6.c | completo|El limite de longitud de linea es 1000 caracteres|
+|7 | e7.c | completo|...|
+|8 | e8.c | completo|...|
+|9 | e9.c | completo|...|
+|10| e10.c | completo|Solo guarda palabras menores a 99 caracteres|

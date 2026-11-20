@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 1000
+#define MAX 1000 /* maximo de caracteres de una linea si n \n */
 #define LIMITE 80
 
 

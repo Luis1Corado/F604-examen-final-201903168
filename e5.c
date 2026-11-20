@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 1000
+#define MAX 1000  /* maximo de caracteres en una linea */
 
 int main(void){
     int c, i = 0;

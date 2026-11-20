@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define MAX 100   \*Maximo de longitud de palabra, solo cuenta hasta 99 caracteres por palabra *\
+#define MAX 100   /*Maximo de longitud de palabra, solo cuenta hasta 99 caracteres por palabra */
 
 void print_histograma(int histo[]);
 
