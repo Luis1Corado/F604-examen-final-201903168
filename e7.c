@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Este programa utiliza la funcion reverse(s) para escribir las entradas a la inverse , funciona para varias lineas */
 #define MAX 1000
 
 
@@ -14,7 +15,7 @@ int main(void){
         if (c == '\n'){
             linea[i] = '\0';
             reverse(linea);
-            printf("%s", linea);
+            printf("%s\n", linea);
             i = 0;
 
         } else if (i < MAX -1){
