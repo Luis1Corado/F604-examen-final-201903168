@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+/* Este programa reemplaza cada tabulacion por una secuencia '>\b-' y cada retroceso por una secuencia '<\b-'*/
 
 int main(void){
 
