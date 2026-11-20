@@ -11,10 +11,11 @@ Carne: 201903168
     ./bin/e1
 '''
 
-Los ejercicios 5 al 10 leen la entrada estandar:
+Para los ejerecicios 5 y 6
 
 '''
-    ./bin/e6 < prueba.txt
+    ./bin/e5 < prueba.txt
+    ./bin/e6 < largas.txt
 '''
 
 ## Estado de los ejercicios 
