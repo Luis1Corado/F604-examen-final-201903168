@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-#define MAX 100   /*Maximo de longitud de palabra, solo cuenta hasta 99 caracteres por palabra */
+/* Este programa imprime un histograma de las longitudes de las palabras de la entrada, las palabras con mas de 99 caracteres se cuentan todas juntas en la fila 99 */
+
+#define MAX 100   /*Maximo de longitud de palabra*/
 
 void print_histograma(int histo[]);
 
@@ -25,7 +27,7 @@ int main(void){
         histograma[i] = histograma[i] +1;
             
             
-    print_histograma(histograma);
+    print_histograma(histograma); // Funcion para imprimir el histograma horizontal
 
     return 0;
 
@@ -34,6 +36,8 @@ int main(void){
 void print_histograma(int histo[]){
 
     int i, j; 
+
+    printf("Histograma de longitudes\n");
 
     for (i = 0; i< MAX; i++){
         if (histo[i] != 0){
