@@ -1,6 +1,6 @@
 # Examen final F604 - Ejercicios de C 
 
-Nombre: Luis Corado
+Nombre: Luis Corado <br>
 Carne: 201903168
 
 ## Como compilar y ejecutar 
